@@ -7,6 +7,24 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="39*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.Background>
+            <ImageBrush ImageSource="D:\Azamat2\Transfer_task\Transfer_task\src\mony.png"></ImageBrush>
+        </Grid.Background>
+        <Border HorizontalAlignment="Left" Height="44" Margin="290,114,0,0" Background="#EDEBEB" VerticalAlignment="Top" Width="255" CornerRadius="15">
+            <TextBox Text="Логин" TextWrapping="Wrap" Foreground="#6C6161" Background="Transparent" BorderThickness="0"/>
+        </Border>
+        <Border HorizontalAlignment="Left" Height="39" Margin="290,169,0,0" Background="#EDEBEB" VerticalAlignment="Top" Width="255" CornerRadius="15">
+            <TextBox Text="Пароль" TextWrapping="Wrap" Foreground="#6C6161" Background="Transparent" BorderThickness="0"/>
+        </Border>
+        <Border HorizontalAlignment="Left" Height="20" Margin="456,217,0,0" Background="#EDEBEB" VerticalAlignment="Top" Width="89" CornerRadius="">
+            <Button Content="создать акаунт" Foreground="#6C6161" Background="Transparent" BorderThickness="0"/>
+        </Border>
+        <Border HorizontalAlignment="Left" Height="20" Margin="290,217,0,0" Background="#EDEBEB" VerticalAlignment="Top" Width="156" CornerRadius="7">
+            <Button Content="пользовательское соглашение" Foreground="#6C6161" Background="Transparent" BorderThickness="0"/>
+        </Border>
     </Grid>
 </Window>
