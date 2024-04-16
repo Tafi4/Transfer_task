@@ -14,7 +14,7 @@
         <TextBox HorizontalAlignment="Left" Height="52" Margin="0,382,0,0" TextWrapping="Wrap" Text="+ новая транзакция" VerticalAlignment="Top" Width="168" FontSize="16" Grid.Column="1"/>
         <TextBox HorizontalAlignment="Center" Height="38" TextWrapping="Wrap" Text="Категории" VerticalAlignment="Top" Width="286" Grid.Column="1" FontSize="22"/>
         <TextBox Grid.Column="1" HorizontalAlignment="Left" Height="434" Margin="168,0,0,0" TextWrapping="Wrap" Text="Доходы/росходы" VerticalAlignment="Center" Width="119"/>
-        <Image Margin="259,10,10,199" Source="/Image5.png" Stretch="Fill"/>
+        <Image Margin="259,10,10,199" Source="src/diagram.png" Stretch="Fill"/>
 
     </Grid>
 </Window>
