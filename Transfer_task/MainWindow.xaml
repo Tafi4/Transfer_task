@@ -20,7 +20,7 @@
         <Border HorizontalAlignment="Left" Height="39" Margin="290,169,0,0" Background="#EDEBEB" VerticalAlignment="Top" Width="255" CornerRadius="15">
             <TextBox Text="Пароль" TextWrapping="Wrap" Foreground="#6C6161" Background="Transparent" BorderThickness="0"/>
         </Border>
-        <Border HorizontalAlignment="Left" Height="20" Margin="456,217,0,0" Background="#EDEBEB" VerticalAlignment="Top" Width="89" CornerRadius="">
+        <Border HorizontalAlignment="Left" Height="20" Margin="456,217,0,0" Background="#EDEBEB" VerticalAlignment="Top" Width="89" CornerRadius="15">
             <Button Content="создать акаунт" Foreground="#6C6161" Background="Transparent" BorderThickness="0"/>
         </Border>
         <Border HorizontalAlignment="Left" Height="20" Margin="290,217,0,0" Background="#EDEBEB" VerticalAlignment="Top" Width="156" CornerRadius="7">
